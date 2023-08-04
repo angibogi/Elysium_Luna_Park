@@ -1,0 +1,441 @@
+body
+{
+    background-color: #F7F3E7;
+}
+
+label{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    margin: auto;
+
+}
+
+h1, h2{
+    font-size: 64px;
+    font-family: 'Nerko One', cursive;
+}
+
+h3{
+    font-size:36px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+p
+{
+    font-size:20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+li
+{
+    font-size:1.5vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+button
+{
+    font-size:18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+
+.cart{
+    text-decoration: none;
+    color: #191715;
+    width: 100%;
+}
+
+.cart:hover{
+    text-decoration: none;
+    color: #F7F8FA;
+}
+
+.Elysium_header
+{
+    height:80vh;
+    background-image: url("../images/cover_eventi.jpg");
+    background-size: cover;
+}
+
+
+.event_banner
+{
+    background-color: #E26552;
+    border: 5px solid #191715;
+    color:#191715;
+}
+
+
+.Rino
+{
+    margin-bottom: -15px;
+}
+
+.back{
+    position: relative;
+}
+#arrow_back
+{
+    transform: rotate(-90deg);
+    width: 100px;
+    height: 100px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.full_event
+{
+    display: block;
+}
+
+.mobile_event
+{
+    display: none;
+   align-content: center;
+    max-width: 360px
+
+}
+
+
+
+/*Card*/
+
+.event_body {
+    max-width: 417px;
+    min-height: 580px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #191715;
+    border-radius: 10px;
+    background: #F9F9F9;
+}
+
+.event_body img {
+    max-width: 417px;
+    max-height: 318px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid #191715;
+    object-fit: cover;
+}
+
+.card_event_text
+{
+    padding: 10px;
+}
+
+.card_event_btn
+{
+    position: relative;
+}
+
+.card_event_btn button
+{
+    max-width: 267px;
+    max-height: 56px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #191715;
+    background-color: #EBA831;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.card_event_btn  button:hover {
+    color: #F7F8FA;
+}
+
+.card_event_btn  button:active
+ {
+
+    transform: translateY(4px);
+    background-color: #191715;
+
+}
+
+.card_out_btn button
+{
+    max-width: 267px;
+    max-height: 56px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #191715;
+    background-color: #D7D7D7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.carousel .slide
+{
+    margin: 0 auto !important;
+    justify-content: center !important;
+}
+
+.carousel-indicators
+{
+    bottom: -3em;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    color: #191715;
+}
+
+.dot
+{
+    background-color: #191715 !important;
+}
+
+
+
+.carousel-control-prev-icon {
+    opacity: 0;
+}
+
+.carousel-control-next-icon {
+    opacity: 0;
+}
+
+
+h2.footer-title{
+    font-size: 56px;
+    font-family: 'Nerko One', cursive;
+}
+
+.ftitle{
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+
+}
+
+#section-footer{
+    background-color: #E26552;
+    border: 5px solid #191715;
+    color:#191715;
+}
+
+#rino-position{
+    right: 0;
+    bottom:-32%;
+}
+
+.info{
+    background-color: #F7F8FA;
+    border: 5px solid #191715;
+    color:#191715;
+}
+
+
+
+.ftext{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.social-icon{
+    width:32px;
+    height:32px;
+}
+
+
+.semi-circle
+{
+    position: relative;
+    background-image: url('../images/semi_circle_red.svg');
+    background-repeat: no-repeat;
+    height:72px;
+    width:437px;
+
+}
+
+.text-reset,
+.social a
+{
+    text-decoration: none;
+}
+
+.social
+{
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+}
+
+.rino_footer img
+{
+    position: absolute;
+    top: 0;
+}
+
+
+@media screen and (max-width: 1200px)
+{
+    h3{
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+    }
+    p
+    {
+        font-size:18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .event_body img {
+        max-width:  369px;
+        max-height: 207px;
+    }
+
+    .event_body {
+        max-width: 369px;
+        min-height: 400px;
+    }
+
+    .event_body img {
+        max-width:  369px;
+        max-height: 207px;
+    }
+
+    .card_event_btn button
+    {
+        max-width: 188px;
+        max-height: 44px;
+        padding: 5px;
+    }
+
+    .card_out_btn button
+    {
+        max-width: 188px;
+        max-height: 44px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    h1{
+        font-size: 42px;
+        font-family: 'Nerko One', cursive;
+    }
+
+    h2{
+        font-size: 36px;
+        font-family: 'Nerko One', cursive;
+    }
+
+    h3{
+        font-size: 24px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+    }
+
+    p
+    {
+        font-size:18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        line-height: 150%;
+    }
+    .mobile_event
+    {
+        display: block;
+
+    }
+
+    .full_event
+    {
+        display: none;
+    }
+
+    #arrow_back
+    {
+
+        width: 70px;
+        height: 70px;
+        right: 5px;
+
+    }
+
+    .ftext,.ftitle{
+        font-size: 18px;
+    }
+    .rino_footer
+    {
+        visibility: hidden;
+    }
+
+    .semi-circle
+    {
+        position: relative;
+        background-image: none;
+        background-color: #E26552;
+        width:100%;
+        border-top: 5px solid #191715;
+
+    }
+
+    .social
+    {
+        display: flex;
+        flex-direction: row;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .padding-remover{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .Elysium_header
+    {
+        padding-left: 0;
+        padding-right: 0;
+        height: 300px;
+        background-image: url("../images/cover_eventi_mobile.jpg");
+        width: 100%;
+
+    }
+
+    #arrow_back
+    {
+        display: none;
+        visibility: hidden;
+    }
+
+
+}
